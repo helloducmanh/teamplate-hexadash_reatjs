@@ -295,6 +295,7 @@ const SaleByLocation = React.memo(() => {
                   type="button"
                   onClick={handleZoomIn}
                   className="flex justify-center bg-white rounded-md rounded-b-none dark:bg-white10 border-regular border-1 dark:border-white30 w-7 h-7 dark:text-white87"
+                  aria-label="Zoom In"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -311,6 +312,7 @@ const SaleByLocation = React.memo(() => {
                 <button
                   type="button"
                   onClick={handleZoomOut}
+                  aria-label="Zoom Out"
                   className="flex justify-center bg-white rounded-md rounded-t-none dark:bg-white10 border-regular border-1 dark:border-white30 border-t-none w-7 h-7 dark:text-white87"
                 >
                   <svg

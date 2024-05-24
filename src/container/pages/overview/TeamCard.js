@@ -40,6 +40,7 @@ function TeamCard({ user, actions }) {
                   href={`https://${link.name.toLowerCase()}.com`}
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label={link.name}
                 >
                   <FontAwesome className="text-current" name={link.icon} />
                 </a>

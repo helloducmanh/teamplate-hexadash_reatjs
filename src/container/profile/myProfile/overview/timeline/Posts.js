@@ -229,6 +229,7 @@ function Posts({ postId, from, time, img, like, comment, content, author }) {
                     return (
                       key <= 1 && (
                         <a
+                          label="image"
                           href="#"
                           onClick={() => {
                             lightBoxHandler(true, key);
@@ -255,6 +256,7 @@ function Posts({ postId, from, time, img, like, comment, content, author }) {
                       return (
                         key > 1 && (
                           <a
+                            label={key}
                             key={key + 1}
                             href="#"
                             onClick={() => {

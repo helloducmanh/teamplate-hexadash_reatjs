@@ -93,6 +93,7 @@ function VectorMaps() {
                     <button
                       type="button"
                       onClick={handleZoomIn}
+                      aria-label="Zoom In"
                       className="flex justify-center bg-white dark:text-white87 dark:bg-white10 w-7 h-7 border border-regular dark:border-white10 rounded-md rounded-b-none"
                     >
                       <svg
@@ -110,6 +111,7 @@ function VectorMaps() {
                     <button
                       type="button"
                       onClick={handleZoomOut}
+                      aria-label="Zoom Out"
                       className="flex justify-center dark:text-white87 bg-white dark:bg-white10 w-7 h-7 border border-regular dark:border-white10 rounded-md rounded-t-none"
                     >
                       <svg

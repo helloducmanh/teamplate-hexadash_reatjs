@@ -94,6 +94,7 @@ function Product() {
               className="mb-[15px] w-[45px] h-[45px] hidden xl:inline-flex items-center justify-center p-0 text-primary bg-white dark:bg-white10 dark:text-white87 border-1 border-white dark:border-white10 rounded-6"
               type="button"
               onClick={handleButtonClick}
+              aria-label="filter"
             >
               <UilAlignLeft />
             </button>
@@ -142,7 +143,8 @@ function Product() {
                         activeSort === 'top-rated'
                           ? 'text-primary dark:text-white87'
                           : 'text-light-extra dark:text-white60'
-                      }`}
+                      }
+                        `}
                     >
                       Top Rated
                     </Radio.Button>
@@ -155,7 +157,8 @@ function Product() {
                         activeSort === 'popular'
                           ? 'text-primary dark:text-white87'
                           : 'text-light-extra dark:text-white60'
-                      }`}
+                      }
+                        `}
                     >
                       Popular
                     </Radio.Button>
@@ -168,7 +171,8 @@ function Product() {
                         activeSort === 'newest'
                           ? 'text-primary dark:text-white87'
                           : 'text-light-extra dark:text-white60'
-                      }`}
+                      }
+                          `}
                     >
                       Newest
                     </Radio.Button>
@@ -179,7 +183,8 @@ function Product() {
                       }}
                       className={`bg-transparent h-10 leading-[42px] px-3 border-none shadow-none before:bg-section dark:before:bg-white10 before:h-1/2 before:top-1/2 before:-translate-y-1/2 ${
                         activeSort === 'price' ? 'text-primary dark:text-white87' : 'text-light-extra dark:text-white60'
-                      }`}
+                      }
+                        `}
                     >
                       Price
                     </Radio.Button>
@@ -195,7 +200,8 @@ function Product() {
                       activeView === 'grid'
                         ? 'bg-white dark:bg-white10 text-primary dark:text-white87'
                         : 'bg-transparent text-light dark:text-white60'
-                    }`}
+                    }
+                      `}
                   >
                     <UilApps className="w-4 h-4" />
                   </NavLink>
@@ -208,7 +214,8 @@ function Product() {
                       activeView === 'list'
                         ? 'bg-white dark:bg-white10 text-primary dark:text-white87'
                         : 'bg-transparent text-light dark:text-white60'
-                    }`}
+                    } 
+                      `}
                   >
                     <UilListUl className="w-4 h-4" />
                   </NavLink>
